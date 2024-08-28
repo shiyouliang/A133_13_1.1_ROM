@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- AW CODE:[feat] High temperature warning for ntc-->
+    <string name="config_ntcWarningHighBatteryTemperature">Battery temperature is high! Start limiting current!</string>
+    <!-- AW CODE:[feat] High temperature to shut down device warning -->
+    <string name="config_shutdownInHighBatteryTemperatureMsg">Battery temperature is too high ! Shutting down</string>
+    <!-- AW CODE:[feat] Low temperature to shut down device warning -->
+    <string name="config_shutdownInLowBatteryTemperatureMsg">Battery temperature is too low ! Shutting down</string>
+    <!-- AW CODE:[feat] Low temperature warning for ntc -->
+    <string name="config_ntcWarningLowBatteryTemperature">Battery temperature is low! Start limiting current!</string>
+    <!-- AW CODE:[feat] High temperature warning -->
+    <string name="config_warningHighBatteryTemperature">Battery temperature is high! Stop charging!</string>
+    <!-- AW CODE:[feat] Low temperature warning -->
+    <string name="config_warningLowBatteryTemperature">Battery temperature is low! Stop charging!</string>
+    <!-- AW CODE:[feat] Warning title-->
+    <string name="config_batteryNotificationTitle">Warning</string>
+    <!-- AW CODE:[feat] Warning dialog confirm button-->
+    <string name="config_batteryTemperatureConfirm">OK</string>
+    <!-- AW CODE:[feat] Low power shutdown warning-->
+    <string name="config_batteryLowPowerShutdownWarning">Battery power is too low! The device will shut down in 5 seconds!</string>
+    <!-- AW CODE:[feat] Whether to use show notification of abnormal battery temp -->
+    <bool name="config_batteryServiceUseNotification">true</bool><!--add by heml,for NTC function-->
+    <!-- AW CODE:[feat] Whether to use Ntc warning content -->
+    <bool name="config_batteryServiceReplaceNtcWarning">false</bool>
+    <!-- AW CODE:[feat] Show shutdown notice if the battery temperature exceeds (this value * 0.1) Celsius -->
+    <integer name="config_batteryMaxTempAlert">2147483647</integer>
+    <!-- AW CODE:[feat] Show shutdown notice if the battery temperature lower than (this value * 0.1) Celsius -->
+    <integer name="config_batteryMinTempAlert">-2147483648</integer>
+    <!-- AW CODE:[feat] Show ambient notice if the battery temperature exceeds (this value * 0.1) Celsius -->
+    <integer name="config_batteryMaxTempAmbientAlert">2147483647</integer>
+    <!-- AW CODE:[feat] Show ambient notice if the battery temperature lower than (this value * 0.1) Celsius -->
+    <integer name="config_batteryMinTempAmbientAlert">-2147483648</integer>
+    <!--AW CODE:[feat]:shut down screen directly-->
+    <bool name="config_shutdownForceScreenOff">false</bool>
+    <!--add by heml,for NTC function-->
+    <integer name="config_batteryHighTemperatureStopCharging">600</integer>
+    <integer name="config_batteryLowTemperatureStopCharging">-100</integer>
+    <integer name="config_batteryHighTemperatureShutdown">650</integer>
+    <integer name="config_batteryLowTemperatureShutdown">-200</integer>
+    <bool name="config_batteryServiceReplaceNtcWarningValue">false</bool>
+    <!--add by heml,for NTC function-->
+</resources>

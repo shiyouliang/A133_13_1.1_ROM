@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:background">#000000</item><!--add by heml,for kill awcamera-->
+    </style>
+    <style name="TitleTheme" parent="Theme.AppCompat">
+        <item name="android:background">#FFFFFF</item>
+    </style>
+    <style name="CameraTheme" parent="Theme.AppCompat">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowAnimationStyle">@style/notAnimation</item><!--add by heml,for kill awcamera-->
+    </style>
+    <style name="TabLayoutTextStyle" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">@dimen/tablayout_text_fontsize</item>
+    </style>
+	
+    <!--add by heml,for kill awcamera-->
+    <style name="notAnimation">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+</resources>

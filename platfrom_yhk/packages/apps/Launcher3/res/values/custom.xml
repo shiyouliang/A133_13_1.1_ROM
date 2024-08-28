@@ -1,0 +1,78 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- add by AW -->
+    <string name="change_icon_shape_label">Change icon shape</string>
+    <string name="layout_menu">Layout</string>
+    <string name="change_icon_shape_default">Circle</string>
+    <string name="change_confirm">Confirm</string>
+
+    <string name="launcher_style">Launcher Style</string>
+    <string name="launcher_style_default_text">Double Layer</string>
+    <string name="launcher_style_single_text">Single Layer</string>
+
+    <integer-array name="launcher_style_type" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+
+    <integer name="launcher_style_default">0</integer>
+    <integer name="folder_style_default">0</integer>
+    <integer name="settings_layout_min_row">4</integer>
+    <integer name="settings_layout_max_row">6</integer>
+    <integer name="settings_layout_min_column">4</integer>
+    <integer name="settings_layout_max_column">6</integer>
+
+    <dimen name="icon_shape_text_size">22sp</dimen>
+    <dimen name="icon_shape_text_margin">5dp</dimen>
+    <dimen name="launcher_style_text_size">22sp</dimen>
+    <dimen name="launcher_style_item_margin">10dp</dimen>
+    <dimen name="launcher_style_bg_margin">20dp</dimen>
+    <dimen name="launcher_style_bg_padding">30dp</dimen>
+
+    <integer-array name="folder_style_type" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+
+    <string name="folder_style_default_text">Circle Style</string>
+    <string name="folder_style_grid_text">Grid Style</string>
+
+    <!-- for mono icon -->
+    <string name="enable_monochrome_icon">Enable monochrome icon</string>
+    <string name="enable_monochrome_icon_desc">Icon color will follow the system theme change</string>
+
+    <!-- for landscape -->
+    <string name="disable_landscape">Disable Landscape</string>
+    <string name="disable_landscape_desc">disalbe to be Landscape</string>
+
+    <!-- for All apps style -->
+    <string name="enable_all_apps_full_screen">Enable all apps full screen</string>
+    <string name="enable_all_apps_full_screen_desc">all apps will change style</string>
+
+    <!-- for Taskbar style -->
+    <string name="enable_taskbar">Enable the taskbar of Launcher</string>
+    <string name="enable_taskbar_desc">Decide whether to use the taskbar or the navigation bar</string>
+
+    <!-- for Hotseat text -->
+    <dimen name="launcher_hotseat_icon_text" translatable="false">30dp</dimen>
+    <string name="enable_hotseat_text">Enable hotseat text</string>
+    <string name="enable_hotseat_text_desc">Determines whether to show the Hotseat title</string>
+
+    <!-- for Recent task custom -->
+    <dimen name="navigation_bar_height" translatable="false">@*android:dimen/navigation_bar_frame_height</dimen>
+    <dimen name="recent_task_lock_width" translatable="false">24dp</dimen>
+    <string name="recent_memory_info">Memory:\n\t\tAvailable: %1$sG\n\t\tTotal: %2$sG</string>
+    <string name="recent_task_lock">App Lock</string>
+    <string name="recent_task_unlock">App Unlock</string>
+
+    <!-- for Icon double lines -->
+    <string name="enable_icon_title_double_lines">Enable icon title double lines</string>
+    <string name="enable_icon_title_double_lines_desc">Can show longer app title</string>
+
+    <!-- for Search box remove -->
+    <string name="enable_search_box_remove">Enable search box remove</string>
+    <string name="enable_search_box_remove_desc">Determines whether to show the search box</string>
+    <!-- for folder -->
+    <string name="folder_style">Folder Style</string>
+    <string name="folder_style_desc">Changed the Folder Style</string>
+</resources>

@@ -1,0 +1,32 @@
+android_app {
+    name: "SoundRecorder",
+    srcs: ["**/*.java"],
+	static_libs: [
+        "androidx.appcompat_appcompat",
+        "androidx.collection_collection",
+        "androidx.core_core",
+        "androidx.fragment_fragment",
+        "androidx.media_media",
+        "androidx.legacy_legacy-support-core-utils",
+        "androidx.legacy_legacy-support-core-ui",
+        "androidx.palette_palette",
+        "androidx.recyclerview_recyclerview",
+        "androidx.viewpager_viewpager",
+        "androidx.legacy_legacy-support-v13",
+        "colorpicker",
+        "libchips",
+        "libphotoviewer",
+        "androidx.annotation_annotation",
+        "android-common",
+        "android-common-framesequence",
+        "com.android.vcard",
+        "guava",
+        "libphonenumber",
+    ],
+
+    platform_apis: true,
+
+    jni_libs: [
+        "libmp3recorder_jni",
+    ],
+}

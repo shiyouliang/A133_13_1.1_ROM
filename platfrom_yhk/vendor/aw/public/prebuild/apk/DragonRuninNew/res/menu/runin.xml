@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/settings"/>
+    <item
+        android:id="@+id/action_start"
+        android:orderInCategory="101"
+        android:title="@string/button_start"/>
+    <item
+        android:id="@+id/action_next"
+        android:orderInCategory="102"
+        android:title="@string/button_next"/>
+    <item
+        android:id="@+id/action_stop"
+        android:orderInCategory="103"
+        android:title="@string/button_stop"/>
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="104"
+        android:title="@string/button_exit"/>
+
+</menu>

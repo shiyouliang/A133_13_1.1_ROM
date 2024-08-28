@@ -1,0 +1,57 @@
+<resources>
+
+    <string name="app_version">V1.2023.0909</string>
+    <string name="app_name">System Runin</string>
+    <string name="app_config">System Runin-Config</string>
+    <string name="waiting">等待测试</string>
+    <string name="button_start">重新开始</string>
+    <string name="button_next">下一项</string>
+    <string name="button_stop">停止</string>
+    <string name="button_exit">退出</string>
+    <string name="state_none">准备开始……</string>
+    <string name="video_no_exist">无可播放视频，5秒后进行下一项测试</string>
+    <string name="memory_testing">内存测试中</string>
+    <string name="memtester_testing">Memtester测试中</string>
+    <string name="reboot_testing">重启测试中</string>
+    <string name="sleepwake_testing">休眠/唤醒测试中</string>
+    <string name="finish_title">测试结束</string>
+    <string name="finish_text_pass">PASS</string>
+    <string name="finish_text_fail">FAIL</string>
+    <!-- setting -->
+    <string name="settings">设置</string>
+    <string name="reset">重置</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="test_mode">调试模式</string>
+    <string name="cycle_times">循环圈数：</string>
+    <string name="type_foreground">foreground</string>
+    <string name="type_background">background</string>
+    <string name="unit_none"></string>
+    <string name="unit_ms">ms</string>
+    <string name="unit_s">s</string>
+    <string name="unit_min">min</string>
+    <string name="unit_times">次</string>
+    <string name="node_button_add">添加</string>
+    <string name="node_button_select">选择</string>
+    <string name="node_button_delete">删除</string>
+    <!-- file selector -->
+    <string name="file_selector_tip">长按文件夹展开列表</string>
+    <string name="file_selector_button_back">返回</string>
+    <string name="file_selector_button_ok">确定</string>
+
+
+    <string name="ddr_test_no_test_running_text">暂无测试进行</string>
+    <string name="ddr_test_success_text">测试完成！</string>
+    <string name="ddr_test_testing_status_doing">正在测试…</string>
+    <string name="ddr_test_mem_size_error_text">内存大小不能小于1</string>
+    <string name="ddr_test_repeat_count_error_text">测试次数不能少于1</string>
+    <string name="ddr_test_stopped_text">测试已停止</string>
+    <string name="ddr_test_testing_text">正在测试：</string>
+    <string name="ddr_test_fail_text">测试失败！</string>
+    <string name="ddr_test_item_mem_size">内存大小</string>
+    <string name="ddr_test_testing_progress">次数</string>
+    <string name="ddr_test_testing_status">状态</string>
+    <string name="ddr_test_error_count">错误次数</string>
+    <string name="unit_mb_yhk">MB</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Root test="false" cycle="2">
+    <Foreground>
+        <!-- 单位：分钟 -->
+        <VideoTest duration="70">
+            <src>/mnt/sdcard/runin/video</src>
+        </VideoTest>
+        <!-- 单位：分钟 -->
+        <ThreeDimensionalTest duration="30" />
+
+        <!-- 单位：分钟 -->
+        <!--<TwoDimensionalTest duration="3600000" delay="10000">
+            <src>/mnt/sdcard/runin/pic</src>
+        </TwoDimensionalTest>-->
+        <!-- 单位：次数 -->
+        <MemtesterTest repeat="1000"  memsize="2048" />
+        <!-- 单位：次数 -->
+        <SleepwakeTest open="10" close="300" repeat="10" />
+        <!-- 单位：次数 -->
+        <RebootTest repeat="50">
+            <reason>runintest</reason>
+        </RebootTest>
+    </Foreground>
+    <Background>
+        <!-- 单位：秒 -->
+        <!--<WifiTest open="20000" close="15000">
+            <while>VideoTest</while>
+            <while>ThreeDimensionalTest</while>
+            <while>TwoDimensionalTest</while>
+        </WifiTest> -->
+
+        <!-- 单位：秒 -->
+        <!-- <BluetoothTest open="30000" close="30000">
+            <while>VideoTest</while>
+            <while>ThreeDimensionalTest</while>
+            <while>TwoDimensionalTest</while>
+        </BluetoothTest> -->
+        <!-- 单位：秒 -->
+        <!-- <CameraTest open="60000" close="56000">
+            <while>VideoTest</while>
+            <while>ThreeDimensionalTest</while>
+            <while>TwoDimensionalTest</while>
+        </CameraTest>-->
+    </Background>
+</Root>

@@ -1,0 +1,30 @@
+<resources>
+  <!-- AW CODE:[feat] Add high and low temperature warning function-->
+  <java-symbol type="string" name="config_ntcWarningHighBatteryTemperature" />
+  <java-symbol type="string" name="config_shutdownInHighBatteryTemperatureMsg" />
+  <java-symbol type="string" name="config_shutdownInLowBatteryTemperatureMsg" />
+  <java-symbol type="string" name="config_ntcWarningLowBatteryTemperature" />
+  <java-symbol type="string" name="config_warningHighBatteryTemperature" />
+  <java-symbol type="string" name="config_warningLowBatteryTemperature" />
+  <java-symbol type="string" name="config_batteryNotificationTitle" />
+  <java-symbol type="string" name="config_batteryTemperatureConfirm" />
+  <java-symbol type="string" name="config_batteryLowPowerShutdownWarning" />
+  <java-symbol type="bool" name="config_batteryServiceReplaceNtcWarning"/>
+  <java-symbol type="bool" name="config_batteryServiceUseNotification" />
+  <java-symbol type="integer" name="config_batteryMaxTempAlert" />
+  <java-symbol type="integer" name="config_batteryMinTempAlert" />
+  <java-symbol type="integer" name="config_batteryMaxTempAmbientAlert" />
+  <java-symbol type="integer" name="config_batteryMinTempAmbientAlert" />
+  <!-- AW: add end-->
+  <!-- AW CODE:[feat]:shut down screen directly -->
+  <java-symbol type="bool" name="config_shutdownForceScreenOff" />
+  <!-- AW: add end-->
+  
+  <!--add by heml,for NTC function-->
+  <java-symbol type="integer" name="config_batteryHighTemperatureStopCharging" />
+  <java-symbol type="integer" name="config_batteryLowTemperatureStopCharging" />
+  <java-symbol type="integer" name="config_batteryHighTemperatureShutdown" />
+  <java-symbol type="integer" name="config_batteryLowTemperatureShutdown" />
+  <java-symbol type="bool" name="config_batteryServiceReplaceNtcWarningValue" />
+  <!--add by heml,for NTC function-->
+</resources>

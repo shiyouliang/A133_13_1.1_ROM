@@ -1,0 +1,10 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- add by AW -->
+    <integer name="settings_layout_min_row">4</integer>
+    <integer name="settings_layout_max_row">6</integer>
+    <integer name="settings_layout_min_column">4</integer>
+    <integer name="settings_layout_max_column">6</integer>
+
+</resources>
+

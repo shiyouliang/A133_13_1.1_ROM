@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">24sp</dimen>
+    <dimen name="finish_text_size">120sp</dimen>
+    <dimen name="margin_h">20dip</dimen>
+    <dimen name="margin_top">10dip</dimen>
+    <dimen name="margin_bottom">40dip</dimen>
+    <dimen name="listview_padding">20dip</dimen>
+</resources>

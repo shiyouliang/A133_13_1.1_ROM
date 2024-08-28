@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- add by heml,for UI layout -->
+<com.softwinner.camera.views.RotateTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@drawable/selector_modetext"
+    android:textSize="@dimen/mode_text_fontsize"
+    android:layout_marginLeft="@dimen/mode_text_padding"
+    android:layout_marginRight="@dimen/mode_text_padding">
+</com.softwinner.camera.views.RotateTextView>
