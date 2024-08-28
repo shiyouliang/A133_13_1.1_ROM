@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2017 Google Inc. All Rights Reserved. -->
+<favorites>
+  <!-- Hotseat (We use the screen as the position of the item in the hotseat) -->
+  <!-- Dialer Messaging Calendar Contacts Camera -->
+  <favorite container="-101" screen="0" x="0" y="0" packageName="com.google.android.youtube" className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity"/>
+  <favorite container="-101" screen="1" x="1" y="0" packageName="com.google.android.apps.nbu.files" className="com.google.android.apps.nbu.files.home.HomeActivity"/>
+  <favorite container="-101" screen="2" x="2" y="0" packageName="com.android.chrome" className="com.google.android.apps.chrome.Main"/>
+  <favorite container="-101" screen="3" x="3" y="0" packageName="com.allwinner.camera" className="com.allwinner.camera.CameraActivity"/>
+  <favorite container="-101" screen="3" x="3" y="0" packageName="com.android.camera2" className="com.android.camera.CameraLauncher"/>
+  <favorite container="-101" screen="3" x="3" y="0" packageName="com.softwinner.camera" className="com.softwinner.camera.CameraLauncher"/>
+  <favorite container="-101" screen="4" x="4" y="0" packageName="com.android.settings" className="com.android.settings.Settings"/>
+  <favorite container="-101" screen="5" x="5" y="0" packageName="com.softwinner.fireplayer" className="com.softwinner.fireplayer.ui.FourKMainActivity"/>
+  <favorite container="-101" screen="6" x="6" y="0" packageName="com.android.calculator2" className="com.android.calculator2.Calculator"/>
+  <!-- In Launcher3, workspaces extend infinitely to the right, incrementing from zero -->
+  <!-- Google folder -->
+  <!-- Google Go, Gmail, Assistant Go, Maps Go, YouTube, Drive, YouTube Music, Play Movies, Duo, Gallery Go -->
+  <folder title="@string/google_folder_title" screen="0" x="0" y="3">
+    <favorite packageName="com.google.android.apps.searchlite" className="com.google.android.apps.searchlite.ui.SearchActivity"/>
+    <favorite packageName="com.google.android.gm" className="com.google.android.gm.ConversationListActivityGmail"/>
+    <favorite packageName="com.google.android.apps.assistant" className="com.google.android.apps.assistant.go.MainActivity"/>
+    <favorite packageName="com.google.android.apps.maps" className="com.google.android.maps.MapsActivity"/>
+    <favorite packageName="com.google.android.youtube" className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity"/>
+    <favorite packageName="com.google.android.apps.docs" className="com.google.android.apps.docs.app.NewMainProxyActivity"/>
+    <favorite packageName="com.google.android.apps.youtube.music" className="com.google.android.apps.youtube.music.activities.MusicActivity"/>
+    <favorite packageName="com.google.android.videos" className="com.google.android.videos.GoogleTvEntryPoint"/>
+    <favorite packageName="com.google.android.videos" className="com.google.android.youtube.videos.EntryPoint"/>
+    <favorite packageName="com.google.android.apps.tachyon" className="com.google.android.apps.tachyon.MainActivity"/>
+    <favorite packageName="com.google.android.apps.photosgo" className="com.google.android.apps.photosgo.home.HomeActivity"/>
+    <favorite packageName="com.google.android.apps.adm" className="com.google.android.apps.adm.activities.MainActivity"/>
+  </folder>
+  <favorite screen="0" x="3" y="3" packageName="com.android.vending" className="com.android.vending.AssetBrowserActivity"/>
+</favorites>

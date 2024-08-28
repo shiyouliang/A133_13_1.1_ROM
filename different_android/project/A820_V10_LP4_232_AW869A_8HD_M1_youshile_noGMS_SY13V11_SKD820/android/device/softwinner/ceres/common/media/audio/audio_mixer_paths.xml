@@ -1,0 +1,45 @@
+<mixer>
+    <!-- These are the initial mixer settings -->
+    <ctl name="HPOUT Switch" value="1" />
+    <!-- playback -->
+    <path name="media-speaker">
+        <ctl name="HPOUT Switch" value="1" />
+        <ctl name="SPK Switch" value="1" />
+    </path>
+    <path name="media-headphones">
+        <ctl name="HPOUT Switch" value="1" />
+        <ctl name="SPK Switch" value="0" />
+    </path>
+    <path name="media-single-speaker">
+        <ctl name="HPOUT Switch" value="1" />
+        <ctl name="SPK Switch" value="1" />
+    </path>
+    <path name="phone-ring-voice">
+        <ctl name="HPOUT Switch" value="1" />
+        <ctl name="SPK Switch" value="1" />
+    </path>
+    <!-- capture -->
+    <path name="media-main-mic">
+        <ctl name="MIC1 Switch" value="1" />
+    </path>
+    <path name="media-headset-mic">
+        <ctl name="MIC2 Switch" value="1" />
+    </path>
+    <path name="media-dual-mic">
+        <ctl name="MIC1 Switch" value="1" />
+        <ctl name="MIC2 Switch" value="1" />
+    </path>
+    <path name="out-reset">
+        <ctl name="DACL volume" value="162"/>
+        <ctl name="DACR volume" value="162"/>
+        <ctl name="SPK Switch" value="0" />
+        <ctl name="HPOUT Switch" value="0" />
+    </path>
+    <path name="in-reset">
+        <ctl name="ADC1 volume" value="160" />
+        <ctl name="ADC2 volume" value="160" />
+        <ctl name="MIC1 Switch" value="0" />
+        <ctl name="MIC2 Switch" value="0" />
+    </path>
+    <path name="null"></path>
+</mixer>

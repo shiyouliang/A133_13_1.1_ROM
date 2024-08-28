@@ -1,0 +1,6 @@
+on property:sys.boot_completed=1
+    #inmod tp module
+    insmod /vendor/lib/modules/init-input.ko
+    insmod /vendor/lib/modules/gslX680new.ko
+    chown system system /sys/class/ctp/tp_idle
+    chmod 0660 /sys/class/ctp/tp_idle
